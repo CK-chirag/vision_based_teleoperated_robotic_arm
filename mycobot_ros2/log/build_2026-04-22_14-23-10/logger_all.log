@@ -1,0 +1,192 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mycobot_moveit_demos']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mycobot_moveit_demos'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e5eb8990a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e5eb8990740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e5eb8990740>>, mixin_verb=('build',))
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.086s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chirag/arm_ws/src/mycobot_ros2'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_bringup) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_bringup' with type 'ros.ament_cmake' and name 'mycobot_bringup'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_description) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_description' with type 'ros.ament_cmake' and name 'mycobot_description'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_gazebo) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_gazebo' with type 'ros.ament_cmake' and name 'mycobot_gazebo'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_config) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_moveit_config' with type 'ros.ament_cmake' and name 'mycobot_moveit_config'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_moveit_demos) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_moveit_demos' with type 'ros.ament_cmake' and name 'mycobot_moveit_demos'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_ros2) by extension 'ros'
+[0.108s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_ros2' with type 'ros.ament_cmake' and name 'mycobot_ros2'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(mycobot_system_tests) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'mycobot_system_tests' with type 'ros.ament_cmake' and name 'mycobot_system_tests'
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.121s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_bringup' in 'mycobot_bringup'
+[0.121s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_description' in 'mycobot_description'
+[0.122s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_gazebo' in 'mycobot_gazebo'
+[0.122s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_moveit_config' in 'mycobot_moveit_config'
+[0.122s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_system_tests' in 'mycobot_system_tests'
+[0.122s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mycobot_ros2' in 'mycobot_ros2'
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.124s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 418 installed packages in /opt/ros/jazzy
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_target' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_moveit_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos', 'merge_install': False, 'path': '/home/chirag/arm_ws/src/mycobot_ros2/mycobot_moveit_demos', 'symlink_install': False, 'test_result_base': None}
+[0.154s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chirag/arm_ws/src/mycobot_ros2/mycobot_moveit_demos' with build type 'ament_cmake'
+[0.155s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chirag/arm_ws/src/mycobot_ros2/mycobot_moveit_demos'
+[0.156s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos -- -j12 -l12
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos -- -j12 -l12
+[4.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos
+[4.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_moveit_demos)
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos
+[4.558s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos' for CMake module files
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos' for CMake config files
+[4.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_moveit_demos', 'cmake_prefix_path')
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.ps1'
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.dsv'
+[4.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.sh'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/bin'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/pkgconfig/mycobot_moveit_demos.pc'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/python3.12/site-packages'
+[4.561s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/bin'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.ps1'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.sh'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.bash'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.zsh'
+[4.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/colcon-core/packages/mycobot_moveit_demos)
+[4.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_moveit_demos)
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos' for CMake module files
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos' for CMake config files
+[4.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_moveit_demos', 'cmake_prefix_path')
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.ps1'
+[4.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.dsv'
+[4.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/hook/cmake_prefix_path.sh'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/bin'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/pkgconfig/mycobot_moveit_demos.pc'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/python3.12/site-packages'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/bin'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.ps1'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.sh'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.bash'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.zsh'
+[4.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/colcon-core/packages/mycobot_moveit_demos)
+[4.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.566s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.570s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.579s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chirag/arm_ws/src/mycobot_ros2/install/local_setup.ps1'
+[4.580s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chirag/arm_ws/src/mycobot_ros2/install/_local_setup_util_ps1.py'
+[4.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chirag/arm_ws/src/mycobot_ros2/install/setup.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chirag/arm_ws/src/mycobot_ros2/install/local_setup.sh'
+[4.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chirag/arm_ws/src/mycobot_ros2/install/_local_setup_util_sh.py'
+[4.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chirag/arm_ws/src/mycobot_ros2/install/setup.sh'
+[4.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chirag/arm_ws/src/mycobot_ros2/install/local_setup.bash'
+[4.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chirag/arm_ws/src/mycobot_ros2/install/setup.bash'
+[4.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chirag/arm_ws/src/mycobot_ros2/install/local_setup.zsh'
+[4.583s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chirag/arm_ws/src/mycobot_ros2/install/setup.zsh'

@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos -- -j12 -l12
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[4.166s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[4.380s] [100%] Built target hello_moveit
+[4.389s] Invoked command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos -- -j12 -l12
+[4.395s] Invoking command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos
+[4.400s] -- Install configuration: ""
+[4.400s] -- Installing: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit
+[4.401s] -- Set non-toolchain portion of runtime path of "/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit" to ""
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_demos
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_demos
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.sh
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.dsv
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.sh
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.dsv
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.bash
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.sh
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.zsh
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.dsv
+[4.401s] -- Installing: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/packages/mycobot_moveit_demos
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig.cmake
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig-version.cmake
+[4.401s] -- Up-to-date: /home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.xml
+[4.402s] Invoked command in '/home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chirag/arm_ws/src/mycobot_ros2/build/mycobot_moveit_demos

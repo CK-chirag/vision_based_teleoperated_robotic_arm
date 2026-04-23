@@ -1,0 +1,16 @@
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/lib/mycobot_moveit_demos/hello_moveit
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_demos
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_demos
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.sh
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/ament_prefix_path.dsv
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.sh
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/environment/path.dsv
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.bash
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.sh
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.zsh
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/local_setup.dsv
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.dsv
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/ament_index/resource_index/packages/mycobot_moveit_demos
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig.cmake
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/cmake/mycobot_moveit_demosConfig-version.cmake
+/home/chirag/arm_ws/src/mycobot_ros2/install/mycobot_moveit_demos/share/mycobot_moveit_demos/package.xml
